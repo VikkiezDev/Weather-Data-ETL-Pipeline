@@ -5,18 +5,19 @@ A comprehensive Power BI dashboard that analyzes over a decade of Indian weather
 ---
 
 ## 📁 Project Structure
-├── data/
-│ └── output_data.csv # Final cleaned and transformed weather dataset
-├── dashboard/
-│ └── India_Weather.pbix # Power BI dashboard file
-├── scripts/
-│ └── extract.py # Python-based ETL (data cleaning, reshaping)
-│ └── transform.py # Python-based ETL (data cleaning, reshaping)
-│ └── load.py # Python-based ETL (data cleaning, reshaping)
-├── config/
-│ └── config.py # Chart descriptions and analytical insights
-├── main.py
-└── README.md
+    Weather-Data-ETL-Pipeline/
+    ├── data/
+    │ └── output_data.csv # Final cleaned and transformed weather dataset
+    ├── dashboard/
+    │ └── India_Weather.pbix # Power BI dashboard file
+    ├── scripts/
+    │ └── extract.py # Python-based ETL (data cleaning, reshaping)
+    │ └── transform.py # Python-based ETL (data cleaning, reshaping)
+    │ └── load.py # Python-based ETL (data cleaning, reshaping)
+    ├── config/
+    │ └── config.py # Chart descriptions and analytical insights
+    ├── main.py
+    └── README.md
 
 
 ---
